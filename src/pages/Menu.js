@@ -1,5 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Btn from "../components/Btn";
+import img1 from "../images/menu-1.png"
+import img2 from "../images/menu-2.png"
+import img3 from "../images/menu-3.png"
+import img4 from "../images/menu-4.png"
+import img5 from "../images/menu-5.png"
+import img6 from "../images/menu-6.png"
 
 export default function Menu() {
   return (
@@ -13,7 +19,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-1.png"
+                src={img1}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy
@@ -29,7 +35,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-2.png"
+                src={img2}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy
@@ -45,7 +51,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-3.png"
+                src={img3}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy
@@ -61,7 +67,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-4.png"
+                src={img4}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy
@@ -77,7 +83,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-5.png"
+                src={img5}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy
@@ -93,7 +99,7 @@ export default function Menu() {
             <div className="cardmenu border flex flex-col  items-center justify-center sm:ml-[15px] mt-[15px] w-full sm:w-[46%] md:w-[47.5%] lg:w-[22.5%] py-[35px] md:py-[50px] px-[70px] lg:px-[60px] hover:bg-white hover:text-black">
               <img
                 className="h-[90px] w-[90px] md:h-[100px] md:w-[100px]"
-                src="/images/menu-6.png"
+                src={img6}
               />
               <h1 className="text-lg md:text-xl font-bold mt-3">
                 Tasty and Healthy

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import img from "../images/logo.png"
 
 export default function Navbar() {
   let [open, setOpen] = useState(false);
@@ -8,7 +9,7 @@ export default function Navbar() {
       <nav className=" w-full fixed top-0 left-0 bg-black border-1 border-b border-gray-600 z-[90]">
         <div className="md:flex items-center justify-between bg-black  py-4 md:px-10 px-7">
           <img
-            src="/images/logo.png"
+            src={img}
             className="cursor-pointer h-[50px] w-[65px] lg:h-[60px] lg:w-[75px]"
             alt="Logo"
           />

@@ -1,5 +1,6 @@
 import React from "react";
 import Btn from "../components/Btn";
+import img from "../images/home.jpeg";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
           <div
             className="h-full w-full text-white"
             style={{
-              backgroundImage: `url(/images/home.jpeg)`,
+              backgroundImage: `url(${img})`,
               backgroundSize: "100% 100%",
             }}
           >

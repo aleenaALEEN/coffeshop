@@ -1,6 +1,10 @@
 import React from "react";
 import { FaShoppingCart, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
+import img1 from "../images/product-1.png"
+import img2 from "../images/product-2.png"
+import img3 from "../images/product-3.png"
+
 
 export default function Products() {
   return (
@@ -25,7 +29,7 @@ export default function Products() {
               </div>
               <img
                 className="mt-7 w-[100px] h-[140px] sm:w-[160px] sm:h-[250px]"
-                src="/images/product-1.png"
+                src={img1}
               />
               <h1 className="text-lg md:text-2xl font-bold mt-6">
                 Fresh Coffee
@@ -59,7 +63,7 @@ export default function Products() {
               </div>
               <img
                 className="mt-7 w-[100px] h-[140px] sm:w-[160px] sm:h-[250px]"
-                src="/images/product-2.png"
+                src={[img2]}
               />
               <h1 className="text-lg md:text-2xl font-bold mt-6">
                 Fresh Coffee
@@ -93,7 +97,7 @@ export default function Products() {
               </div>
               <img
                 className="mt-7 w-[100px] h-[140px] sm:w-[160px] sm:h-[250px]"
-                src="/images/product-3.png"
+                src={img3}
               />
               <h1 className="text-lg md:text-2xl font-bold mt-6">
                 Fresh Coffee

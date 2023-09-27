@@ -1,5 +1,9 @@
 import React from "react";
 import Btn from "../components/Btn";
+import img1 from "../images/blog-1.jpeg"
+import img2 from "../images/blog-2.jpeg"
+import img3 from "../images/blog-3.jpeg"
+
 
 export default function Blog() {
 
@@ -16,7 +20,7 @@ export default function Blog() {
                   <div className="hide h-[250px] duration-1000">
                     <img
                       className="h-full w-full  hover:scale-110 duration-500"
-                      src="/images/blog-1.jpeg"
+                      src={img1}
                     />
                   </div>
                   <div className="mt-5 ml-5 pb-[20px]">
@@ -38,7 +42,7 @@ export default function Blog() {
                   <div className="hide h-[250px] duration-1000">
                     <img
                       className="h-full w-full  hover:scale-110 duration-500"
-                      src="/images/blog-2.jpeg"
+                      src={img2}
                     />
                   </div>
                   <div className="mt-5 ml-5 pb-[20px]">
@@ -60,7 +64,7 @@ export default function Blog() {
                   <div className="hide h-[250px] duration-1000">
                     <img
                       className="h-full w-full  hover:scale-110 duration-500"
-                      src="/images/blog-3.jpeg"
+                      src={img3}
                     />
                   </div>
                   <div className="mt-5 ml-5 pb-[20px]">

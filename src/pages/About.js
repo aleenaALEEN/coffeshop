@@ -1,5 +1,6 @@
 import React from "react";
 import Btn from "../components/Btn";
+import  img from "../images/about.jpeg"
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
           <div className="w-[95%] lg:w-[87%] py-8">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="h-[320px] sm:h-[491px] md:h-[491px] lg:h-[491px] w-full">
-                <img className="h-full w-full" src="/images/about.jpeg"></img>
+                <img className="h-full w-full" src={img}></img>
               </div>
               <div className="bgcolor h-[400px] sm:h-[320px] lg:h-[491px] text-white flex items-center justify-center">
                 <div className="w-[94%]">
