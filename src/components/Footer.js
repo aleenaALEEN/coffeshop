@@ -25,7 +25,7 @@ export default function Footer() {
             <BsPinterest />
           </span>
         </div>
-        <div className="w-[718px] lg:w-[830px] font-medium flex md:flex-row flex-col   items-center justify-between text-xl mt-[30px]">
+        <div className="md:w-[718px] lg:w-[830px] font-medium flex md:flex-row flex-col   items-center justify-between text-xl mt-[30px]">
           <Link to="home" smooth={true} duration={500}>
             <button className="ftrbtn border py-1 px-4 lg:px-6 md:mt-0 mt-5">
               Home
